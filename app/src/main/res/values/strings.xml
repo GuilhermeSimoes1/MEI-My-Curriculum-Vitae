@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Curriculum Vitae</string>
+    <string name="cv_name">Guilherme Simões</string>
+    <string name="cv_contact">aluno25259@ipt.pt | 912345678 | Rua das Marias</string>
+    <string name="cv_summary">Trabalhei para a NASA e para a Microsoft.</string>
+    <string name="cv_education_title">Mestre</string>
+    <string name="cv_education">Mestrado em Engenharia informática, IPT, 2025/2026</string>
+    <string name="cv_experience_title">Experiência</string>
+    <string name="cv_experience">Diretor, NASA, 2003-2025</string>
+    <string name="cv_skills_title">Habilidades</string>
+    <string name="cv_skills">Habilidade 1, Habilidade 2, ...</string>
 </resources>
