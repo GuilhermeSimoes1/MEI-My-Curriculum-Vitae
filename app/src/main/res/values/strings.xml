@@ -33,4 +33,16 @@ Morbi mattis eleifend finibus. Fusce viverra lacus id turpis fringilla aliquet. 
 Nunc vehicula neque quis efficitur hendrerit. Fusce mollis risus nec massa aliquet iaculis. Quisque dapibus tempor urna, nec faucibus sapien sollicitudin convallis. Suspendisse consequat vitae mi in viverra. Mauris volutpat congue justo, id iaculis diam tincidunt quis. Praesent mattis risus eu tortor volutpat suscipit. Nunc tincidunt leo eget sapien cursus elementum. Nunc in feugiat arcu. Nunc eget tincidunt augue. Nam vel urna eros. Curabitur et augue quis ex molestie interdum in in odio. Vestibulum sollicitudin metus cursus, varius felis ut, blandit tortor.
 
 Aliquam ut dolor luctus, laoreet ligula in, semper dolor. Suspendisse pellentesque dui sit amet dapibus imperdiet. Maecenas dapibus ex dictum purus dignissim mattis. Proin venenatis vel nisi ut gravida. In eget enim vulputate, blandit elit quis, ornare libero. Phasellus sagittis.</string>
+
+
+    <!-- João's CV -->
+    <string name="cv_name_joao">João Joaquim</string>
+    <string name="cv_contact_joao">aluno24729@ipt.pt | 987654321 | Rua dos Anjos</string>
+    <string name="cv_summary_joao">Desenvolvedor Android com experiência em startups.</string>
+    <string name="cv_education_title_joao">Licenciado</string>
+    <string name="cv_education_joao">Licenciatura em Engenharia Informática, IPT, 2022/2025</string>
+    <string name="cv_experience_title_joao">Experiência</string>
+    <string name="cv_experience_joao">Desenvolvedor, Startup X, 2022-2025</string>
+    <string name="cv_skills_title_joao">Habilidades</string>
+    <string name="cv_skills_joao">Kotlin, Java, Android Studio, Firebase, Git, UI/UX Design.</string>
 </resources>
