@@ -1,6 +1,10 @@
 package pt.ipt.dama2026.curriculumvitae
 
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import android.widget.EditText
+import android.widget.LinearLayout
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +15,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val etAnswer = findViewById<EditText>(R.id.etAnswer)
+        val btnShowCV = findViewById<Button>(R.id.btnShowCV)
+        val cvLayout = findViewById<LinearLayout>(R.id.cvLayout)
+
+        btnShowCV.setOnClickListener {
+            if (etAnswer.text.toString().trim().equals("sim", ignoreCase = true)) {
+                cvLayout.visibility = View.VISIBLE
+            } else {
+                cvLayout.visibility = View.GONE
+            }
         }
     }
 }
